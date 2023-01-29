@@ -5,8 +5,7 @@
   var time = dayjs();
   var headerDate = time.format("dddd, MMMM DD, YYYY");
   $("#currentDay").html(headerDate);
-
- 
+  
   // function for formatting input 
   $(".time-block").each(function () {
     // console.log("hello!", this);
